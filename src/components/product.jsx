@@ -25,6 +25,7 @@ function Product() {
                 disabled={state >=10 ? true : false }
                 onClick={dicrement}>click me +</button>
                 <button className='red'
+                disabled={state === 0 ? true : false }
                 onClick={increment}>click me -</button>
                 </div>
             </div>
@@ -38,6 +39,7 @@ function Product() {
                 disabled={state >=10 ? true : false }
                 onClick={dicrement}>click me +</button>
                 <button className='red'
+                disabled={state === 0 ? true : false }
                 onClick={increment}>click me -</button>
                 </div>
             </div> <div className="card-shop">
@@ -50,9 +52,9 @@ function Product() {
                 disabled={state >=10 ? true : false }
                 onClick={dicrement}>click me +</button>
                 <button className='red'
+                disabled={state === 0 ? true : false }
                 onClick={increment}>click me -</button>
                 </div>
-                
             </div>
         </div>
    
